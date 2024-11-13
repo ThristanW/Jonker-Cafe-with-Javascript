@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>I am Programmer</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles-home.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#!">JONKLER CAFE</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html!">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Header - set the background image for the header in the line below-->
+        <header class="py-5 bg-image-full" style="background-image: url('assets/header-bg.png')">
+            <div class="text-center my-5">
+                <img class="img-fluid rounded-circle mb-4" src="assets/Logo.png" alt="Logo" />
+                <h1 class="text-white fs-3 fw-bolder">Welcome to Jonkler Cafe!</h1>
+                <p class="text-white-50 mb-0">Your Cozy Corner for Coffee and Conversation</p>
+            </div>
+        </header>
+        <!-- Content section-->
+        <section class="py-5">
+            <div class="container my-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <h2>About Us</h2>
+                        <p class="lead">At Jonkler Cafe, we believe in the magic of good coffee and great company. Nestled in the heart of the community, our cafe is the perfect spot to relax, catch up with friends, or simply enjoy a moment to yourself. With a warm atmosphere and friendly faces, we strive to make every visit special.</p>
+                        <p class="mb-0">Join us every week for our rotating specials! Whether it’s a new coffee blend or a delicious pastry, there’s always something exciting to try.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Image element - set the background image for the header in the line below-->
+        <div class="py-5 bg-image-full" style="background-image: url('assets/Beans.png')">
+            <!-- Put anything you want here! The spacer below with inline CSS is just for demo purposes!-->
+            <div style="height: 20rem"></div>
+        </div>
+        <!-- Content section-->
+        <section class="py-5">
+            <div class="container my-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <h2>Join Our Community!</h2>
+                        <p class="lead">We love bringing our community together! Check out our upcoming events, from live music nights to coffee brewing workshops. Join us and make new friends!</p>
+                        <p class="mb-0">Sign up for our newsletter to stay updated on special offers, events, and more!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+       <!--Collapsable FAQ section-->
+        <section id="faq" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+                <div class="accordion" id="faqAccordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faqHeadingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseOne" aria-expanded="true" aria-controls="faqCollapseOne">
+                                What are your café's operating hours?
+                            </button>
+                        </h2>
+                        <div id="faqCollapseOne" class="accordion-collapse collapse show" aria-labelledby="faqHeadingOne" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Our café is open Monday through Friday from 7:00 AM to 9:00 PM, and on weekends from 8:00 AM to 10:00 PM.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faqHeadingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseTwo" aria-expanded="false" aria-controls="faqCollapseTwo">
+                                Do you offer vegan options?
+                            </button>
+                        </h2>
+                        <div id="faqCollapseTwo" class="accordion-collapse collapse" aria-labelledby="faqHeadingTwo" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Yes, we offer a range of vegan-friendly options including plant-based milk and pastries.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faqHeadingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseThree" aria-expanded="false" aria-controls="faqCollapseThree">
+                                Can I book a table for a group event?
+                            </button>
+                        </h2>
+                        <div id="faqCollapseThree" class="accordion-collapse collapse" aria-labelledby="faqHeadingThree" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Yes, we do take reservations for group events. Please contact us via phone or email to book a table.
+                            </div>
+                        </div>
+                    </div>                   
+                </div>
+            </div>
+        </section>
+        <!--countdown timer-->
+        <section id="countdown" class="py-5 bg-light">
+            <div class="container text-center">
+                <h2>Special Offer Countdown</h2>
+                <p class="lead">Hurry up! Dont miss out on our special offers!</p>
+                <div id="timer" class="d-flex justify-content-center">
+                    <div id="days" class="timer-box">
+                        <span id="days-value">00</span>
+                        <p>Days</p>
+                    </div>
+                    <div id="hours" class="timer-box">
+                        <span id="hours-value">00</span>
+                        <p>Hours</p>
+                    </div>
+                    <div id="minutes" class="timer-box">
+                        <span id="minutes-value">00</span>
+                        <p>Minutes</p>
+                    </div>
+                    <div id="seconds" class="timer-box">
+                        <span id="seconds-value">00</span>
+                        <p>Seconds</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; JONKER CAFE 2024</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/script.js"></script>
+    </body>
+</html>
